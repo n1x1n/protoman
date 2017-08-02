@@ -1,0 +1,893 @@
+﻿Log file open, 08/01/17 19:57:26
+LogInit:Display: Running engine for game: ProtoMan
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1673119294) SRandInit(-1673119294).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.112289
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.08.02-02.57.26:896][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.02-02.57.26:896][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.08.02-02.57.26:909][  0]LogInit: Computer: FAKENEWS
+[2017.08.02-02.57.26:909][  0]LogInit: User: nixin
+[2017.08.02-02.57.26:909][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.08.02-02.57.26:909][  0]LogInit: High frequency timer resolution =2.531248 MHz
+[2017.08.02-02.57.26:909][  0]LogMemory: Memory total: Physical=15.4GB (16GB approx)
+[2017.08.02-02.57.26:909][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.02-02.57.26:909][  0]LogMemory: Process Physical Memory: 273.72 MB used, 273.72 MB peak
+[2017.08.02-02.57.26:909][  0]LogMemory: Process Virtual Memory: 260.57 MB used, 260.57 MB peak
+[2017.08.02-02.57.26:909][  0]LogMemory: Physical Memory: 6821.71 MB used,  8980.79 MB free, 15802.51 MB total
+[2017.08.02-02.57.26:909][  0]LogMemory: Virtual Memory: 638.19 MB used,  8980.79 MB free, 134217728.00 MB total
+[2017.08.02-02.57.27:020][  0]LogInit: Using OS detected language (en-US).
+[2017.08.02-02.57.27:020][  0]LogInit: Using OS detected locale (en-US).
+[2017.08.02-02.57.27:026][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.08.02-02.57.28:228][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.02-02.57.28:263][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M               ' (Feature Level 11_0)
+[2017.08.02-02.57.28:263][  0]LogD3D11RHI:       4037/0/7901 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.08.02-02.57.28:277][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2017.08.02-02.57.28:277][  0]LogD3D11RHI:       128/0/7901 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.08.02-02.57.28:279][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.08.02-02.57.28:279][  0]LogD3D11RHI:       0/0/7901 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.08.02-02.57.28:279][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.08.02-02.57.28:296][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.02-02.57.28:296][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2017.08.02-02.57.28:296][  0]LogWindows: EnumDisplayDevices:
+[2017.08.02-02.57.28:296][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2017.08.02-02.57.28:296][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.08.02-02.57.28:297][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.08.02-02.57.28:297][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.08.02-02.57.28:297][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M               
+[2017.08.02-02.57.28:297][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.08.02-02.57.28:297][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.08.02-02.57.28:297][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.08.02-02.57.28:322][  0]LogD3D11RHI: NvAPI_D3D_GetCurrentSLIState failed: 0xfffffff7
+[2017.08.02-02.57.28:322][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.02-02.57.28:343][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.08.02-02.57.28:343][  0]LogShaderCompilers: Guid format shader working directory is -18 characters bigger than the processId version (../../../../../../Users/nixin/Documents/Unreal Projects/ProtoMan/Intermediate/Shaders/WorkingDirectory/4084/).
+[2017.08.02-02.57.28:343][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/nixin/AppData/Local/Temp/UnrealShaderWorkingDir/B24011814B03E2832CE63387ACB66CF2/'.
+[2017.08.02-02.57.28:343][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.08.02-02.57.29:541][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.08.02-02.57.29:595][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.08.02-02.57.29:653][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.08.02-02.57.29:719][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.08.02-02.57.29:771][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.08.02-02.57.29:824][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.08.02-02.57.29:878][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.08.02-02.57.29:946][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.08.02-02.57.29:992][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.08.02-02.57.30:042][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.08.02-02.57.30:104][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.08.02-02.57.30:157][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.08.02-02.57.30:208][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.08.02-02.57.30:257][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.08.02-02.57.30:321][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.08.02-02.57.30:419][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.08.02-02.57.30:419][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.08.02-02.57.30:460][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.08.02-02.57.30:567][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.08.02-02.57.30:599][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.08.02-02.57.30:648][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.08.02-02.57.30:710][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.08.02-02.57.30:759][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.08.02-02.57.30:810][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.08.02-02.57.30:810][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.08.02-02.57.31:386][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.08.02-02.57.31:509][  0]LogDerivedDataCache: Loaded boot cache 0.12s 90MB C:/Users/nixin/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.02-02.57.31:510][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/nixin/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.08.02-02.57.31:510][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/nixin/Documents/Unreal Projects/ProtoMan/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.08.02-02.57.31:510][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.08.02-02.57.31:511][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/nixin/Documents/Unreal Projects/ProtoMan/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.08.02-02.57.31:511][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.08.02-02.57.31:533][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.08.02-02.57.31:545][  0]LogDerivedDataCache: Using Local data cache path C:/Users/nixin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.08.02-02.57.31:555][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.08.02-02.57.31:556][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.02-02.57.31:556][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.02-02.57.31:556][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.02-02.57.31:928][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.02-02.57.32:028][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.08.02-02.57.32:212][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.08.02-02.57.32:257][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.08.02-02.57.32:323][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.08.02-02.57.32:323][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.08.02-02.57.32:323][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.08.02-02.57.32:978][  0]LogNetVersion: ProtoMan , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 927534945)
+[2017.08.02-02.57.33:041][  0]LogAssetRegistry: FAssetRegistry took 0.0263 seconds to start up
+[2017.08.02-02.57.33:130][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.056651 seconds
+[2017.08.02-02.57.33:136][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.08.02-02.57.33:136][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.08.02-02.57.33:136][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.02-02.57.33:208][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.08.02-02.57.36:327][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.08.02-02.57.36:375][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.08.02-02.57.37:044][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.08.02-02.57.37:555][  0]SourceControl: Info Source control is disabled
+[2017.08.02-02.57.37:556][  0]SourceControl: Info Source control is disabled
+[2017.08.02-02.57.37:612][  0]SourceControl: Info Source control is disabled
+[2017.08.02-02.57.37:666][  0]SourceControl: Info Source control is disabled
+[2017.08.02-02.57.38:558][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.08.02-02.57.39:295][  0]LogEngine: Initializing Engine...
+[2017.08.02-02.57.39:295][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.08.02-02.57.39:605][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.08.02-02.57.39:605][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.08.02-02.57.39:789][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.08.02-02.57.39:795][  0]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.02-02.57.39:823][  0]LogInit: FAudioDevice initialized.
+[2017.08.02-02.57.39:884][  0]LogDerivedDataCache: Saved boot cache 0.06s 90MB C:/Users/nixin/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.02-02.57.39:908][  0]LogInit: Texture streaming: Enabled
+[2017.08.02-02.57.40:042][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.08.02-02.57.40:295][  0]LogInit: Transaction tracking system initialized
+[2017.08.02-02.57.40:715][  0]BlueprintLog: New page: Editor Load
+[2017.08.02-02.57.41:842][  0]LocalizationService: Info Localization service is disabled
+[2017.08.02-02.57.42:648][  0]LogConsoleResponse:Display: 
+[2017.08.02-02.57.42:876][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.08.02-02.57.42:876][  0]LogCook:Display: Mobile HDR setting 1
+[2017.08.02-02.57.43:584][  0]LogFileCache: Scanning file cache for directory 'C:/Users/nixin/Documents/Unreal Projects/ProtoMan/Content/' took 0.01s
+[2017.08.02-02.57.44:203][  0]SourceControl: Info Source control is disabled
+[2017.08.02-02.57.44:203][  0]Cmd: MAP LOAD FILE="../../../../../../Users/nixin/Documents/Unreal Projects/ProtoMan/Content/Protoman/Maps/Level00.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.02-02.57.44:204][  0]LightingResults: New page: Lighting Build
+[2017.08.02-02.57.44:254][  0]MapCheck: New page: Map Check
+[2017.08.02-02.57.44:254][  0]LightingResults: New page: Lighting Build
+[2017.08.02-02.57.44:512][  0]LogAIModule: Creating AISystem for world level00
+[2017.08.02-02.57.44:541][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.02-02.57.44:567][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.02-02.57.44:610][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 42.924ms to complete.
+[2017.08.02-02.57.44:610][  0]LogFileHelpers: Loading map 'Level00' took 0.407
+[2017.08.02-02.57.44:800][  0]LogCollectionManager: Loaded 0 collections in 0.003454 seconds
+[2017.08.02-02.57.44:884][  0]LogFileCache: Scanning file cache for directory 'C:/Users/nixin/Documents/Unreal Projects/ProtoMan/Saved/Collections/' took 0.01s
+[2017.08.02-02.57.44:884][  0]LogFileCache: Scanning file cache for directory 'C:/Users/nixin/Documents/Unreal Projects/ProtoMan/Content/Developers/nixin/Collections/' took 0.01s
+[2017.08.02-02.57.44:884][  0]LogFileCache: Scanning file cache for directory 'C:/Users/nixin/Documents/Unreal Projects/ProtoMan/Content/Collections/' took 0.01s
+[2017.08.02-02.57.44:884][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.08.02-02.57.44:893][  0]LogContentBrowser: Native class hierarchy populated in 0.0087 seconds. Added 2329 classes and 491 folders.
+[2017.08.02-02.57.44:975][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.08.02-02.57.45:012][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.08.02-02.57.45:059][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.08.02-02.57.45:154][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.08.02-02.57.45:162][  0]LogSlate: Took 0.000197 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.02-02.57.45:169][  0]LogSlate: Took 0.000368 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.08.02-02.57.45:172][  0]LogSlate: Took 0.000237 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.08.02-02.57.45:249][  0]LogRenderer: Reallocating scene render targets to support 1528x484 NumSamples 1 (Frame:1).
+[2017.08.02-02.57.45:416][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.08.02-02.57.45:489][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.08.02-02.57.45:489][  0]LogLoad: (Engine Initialization) Total time: 20.74 seconds
+[2017.08.02-02.57.45:489][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.11 seconds
+[2017.08.02-02.57.45:489][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.08.02-02.57.45:510][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.08.02-02.57.45:510][  0]LogOcInput: OculusInput pre-init called
+[2017.08.02-02.57.45:510][  0]LogHMD: Starting GearVRController plugin
+[2017.08.02-02.57.45:528][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.08.02-02.57.45:562][  0]LogSlate: Took 0.000427 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.02-02.57.45:585][  1]LogAssetRegistry: Asset discovery search completed in 12.5660 seconds
+[2017.08.02-02.57.45:587][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.08.02-02.57.45:587][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000034 seconds (updated 0 objects)
+[2017.08.02-02.58.08:587][342]LogSlate: Took 0.000216 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.02-02.58.09:107][342]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 112 classes and 0 folders.
+[2017.08.02-02.58.09:752][342]LogSlate: Took 0.000350 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.02-02.58.09:823][342]LogSlate: Took 0.000204 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.08.02-02.58.10:046][343]LogSlate: Took 0.000461 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.08.02-03.01.25:069][703]LogRenderer: Reallocating scene render targets to support 1528x928 NumSamples 1 (Frame:1).
+[2017.08.02-03.03.57:963][425]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Protoman/Sprites/protoman/a_shot" FILE="../../../../../../Users/nixin/Documents/Unreal Projects/ProtoMan/Content/Protoman/Sprites/protoman/a_shot.uasset" SILENT=true
+[2017.08.02-03.03.57:976][425]LogSavePackage: Save=9.15ms
+[2017.08.02-03.03.57:976][425]LogSavePackage: Moving '../../../../../../Users/nixin/Documents/Unreal Projects/ProtoMan/Saved/a_shotE0993F214ACB1E80C3FBF0AF429A8258.tmp' to '../../../../../../Users/nixin/Documents/Unreal Projects/ProtoMan/Content/Protoman/Sprites/protoman/a_shot.uasset'
+[2017.08.02-03.03.57:982][425]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/nixin/Documents/Unreal Projects/ProtoMan/Content/Protoman/Sprites/protoman/a_shot.uasset
+[2017.08.02-03.05.28:851][582]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Protoman/Sprites/protoman/a_shot" FILE="../../../../../../Users/nixin/Documents/Unreal Projects/ProtoMan/Content/Protoman/Sprites/protoman/a_shot.uasset" SILENT=true
+[2017.08.02-03.05.28:876][582]LogSavePackage: Save=19.89ms
+[2017.08.02-03.05.28:876][582]LogSavePackage: Moving '../../../../../../Users/nixin/Documents/Unreal Projects/ProtoMan/Saved/a_shotEC459A5E46F1CEA365E56191EB0B50D4.tmp' to '../../../../../../Users/nixin/Documents/Unreal Projects/ProtoMan/Content/Protoman/Sprites/protoman/a_shot.uasset'
+[2017.08.02-03.05.28:884][582]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/nixin/Documents/Unreal Projects/ProtoMan/Content/Protoman/Sprites/protoman/a_shot.uasset
+[2017.08.02-03.07.06:813][842]LogSlate: Took 0.000241 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.02-03.07.24:067][797]BlueprintLog: New page: Compile protoman
+[2017.08.02-03.07.32:090][166]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.08.02-03.07.32:196][168]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.ProtoMan
+[2017.08.02-03.07.32:196][168]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.08.02-03.07.32:196][168]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.16
+[2017.08.02-03.07.32:196][168]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.08.02-03.07.32:200][168]LogTemp: BranchPath = FAKENEWS/C/Program Files/Epic Games/UE_4.16/Engine/Binaries --- GameBranchPath = FAKENEWS/C/Program Files/Epic Games/UE_4.16/Engine/Binaries
+[2017.08.02-03.07.32:232][168]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\nixin\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.08.02-03.10.03:934][154]LogSavePackage: Save=235.26ms
+[2017.08.02-03.10.03:934][154]LogSavePackage: Moving '../../../../../../Users/nixin/Documents/Unreal Projects/ProtoMan/Saved/Level00BBE24B1F45700C1B8FF156901397EEE7.tmp' to '../../../../../../Users/nixin/Documents/Unreal Projects/ProtoMan/Content/Protoman/Maps/Level00.umap'
+[2017.08.02-03.10.03:936][154]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/nixin/Documents/Unreal Projects/ProtoMan/Content/Protoman/Maps/Level00.umap
+[2017.08.02-03.10.06:362][294]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.08.02-03.10.06:415][294]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.02-03.10.06:415][294]PIE: New page: PIE session: Level00 (Aug 1, 2017, 1:10:06 PM)
+[2017.08.02-03.10.06:415][294]LogPlayLevel: Creating play world package: /Game/Protoman/Maps/UEDPIE_0_Level00
+[2017.08.02-03.10.06:425][294]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009763s)
+[2017.08.02-03.10.06:426][294]LogAIModule: Creating AISystem for world level00
+[2017.08.02-03.10.06:426][294]LogPlayLevel: PIE: World Init took: (0.000836s)
+[2017.08.02-03.10.06:426][294]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Protoman/Maps/Level00.level00 to /Game/Protoman/Maps/UEDPIE_0_Level00.level00 (0.010919s)
+[2017.08.02-03.10.06:446][294]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.02-03.10.06:470][294]LogInit: FAudioDevice initialized.
+[2017.08.02-03.10.06:559][294]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.08.02-03.10.06:570][294]LogWorld: Bringing World /Game/Protoman/Maps/UEDPIE_0_Level00.level00 up for play (max tick rate 60) at 2017.08.01-20.10.06
+[2017.08.02-03.10.06:570][294]LogWorld: Bringing up level for play took: 0.008509
+[2017.08.02-03.10.06:617][294]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.08.02-03.10.06:624][294]PIE: Info Play in editor start time for /Game/Protoman/Maps/UEDPIE_0_Level00 0.101
+[2017.08.02-03.12.02:240][624]BlueprintLog: New page: Compile protoman
+[2017.08.02-03.12.03:271][667]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.08.02-03.12.03:293][667]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.02-03.12.03:293][667]PIE: New page: PIE session: Level00 (Aug 1, 2017, 1:12:03 PM)
+[2017.08.02-03.12.03:294][667]LogPlayLevel: Creating play world package: /Game/Protoman/Maps/UEDPIE_0_Level00
+[2017.08.02-03.12.03:305][667]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011201s)
+[2017.08.02-03.12.03:306][667]LogAIModule: Creating AISystem for world level00
+[2017.08.02-03.12.03:306][667]LogPlayLevel: PIE: World Init took: (0.001198s)
+[2017.08.02-03.12.03:306][667]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Protoman/Maps/Level00.level00 to /Game/Protoman/Maps/UEDPIE_0_Level00.level00 (0.012764s)
+[2017.08.02-03.12.03:338][667]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.02-03.12.03:361][667]LogInit: FAudioDevice initialized.
+[2017.08.02-03.12.03:420][667]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.08.02-03.12.03:428][667]LogWorld: Bringing World /Game/Protoman/Maps/UEDPIE_0_Level00.level00 up for play (max tick rate 60) at 2017.08.01-20.12.03
+[2017.08.02-03.12.03:428][667]LogWorld: Bringing up level for play took: 0.006168
+[2017.08.02-03.12.03:438][667]PIE: Info Play in editor start time for /Game/Protoman/Maps/UEDPIE_0_Level00 0.915
+[2017.08.02-03.12.11:075][ 68]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.08.02-03.12.11:096][ 68]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.02-03.12.11:097][ 68]PIE: New page: PIE session: Level00 (Aug 1, 2017, 1:12:11 PM)
+[2017.08.02-03.12.11:097][ 68]LogPlayLevel: Creating play world package: /Game/Protoman/Maps/UEDPIE_0_Level00
+[2017.08.02-03.12.11:108][ 68]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011047s)
+[2017.08.02-03.12.11:109][ 68]LogAIModule: Creating AISystem for world level00
+[2017.08.02-03.12.11:109][ 68]LogPlayLevel: PIE: World Init took: (0.001461s)
+[2017.08.02-03.12.11:110][ 68]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Protoman/Maps/Level00.level00 to /Game/Protoman/Maps/UEDPIE_0_Level00.level00 (0.012884s)
+[2017.08.02-03.12.11:135][ 68]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.02-03.12.11:164][ 68]LogInit: FAudioDevice initialized.
+[2017.08.02-03.12.11:219][ 68]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.08.02-03.12.11:226][ 68]LogWorld: Bringing World /Game/Protoman/Maps/UEDPIE_0_Level00.level00 up for play (max tick rate 60) at 2017.08.01-20.12.11
+[2017.08.02-03.12.11:226][ 68]LogWorld: Bringing up level for play took: 0.006043
+[2017.08.02-03.12.11:236][ 68]PIE: Info Play in editor start time for /Game/Protoman/Maps/UEDPIE_0_Level00 0.713
+[2017.08.02-03.13.44:503][112]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.08.02-03.13.44:527][112]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.08.02-03.13.44:527][112]LogPlayLevel: [PlayLevel] Compiling protoman before play...
+[2017.08.02-03.13.44:715][112]LogPlayLevel: PlayLevel: Blueprint regeneration took 188 ms (1 blueprints)
+[2017.08.02-03.13.44:715][112]PIE: New page: PIE session: Level00 (Aug 1, 2017, 1:13:44 PM)
+[2017.08.02-03.13.44:715][112]LogPlayLevel: Creating play world package: /Game/Protoman/Maps/UEDPIE_0_Level00
+[2017.08.02-03.13.44:726][112]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010494s)
+[2017.08.02-03.13.44:728][112]LogAIModule: Creating AISystem for world level00
+[2017.08.02-03.13.44:728][112]LogPlayLevel: PIE: World Init took: (0.001824s)
+[2017.08.02-03.13.44:728][112]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Protoman/Maps/Level00.level00 to /Game/Protoman/Maps/UEDPIE_0_Level00.level00 (0.012800s)
+[2017.08.02-03.13.44:747][112]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.02-03.13.44:765][112]LogInit: FAudioDevice initialized.
+[2017.08.02-03.13.44:815][112]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.08.02-03.13.44:823][112]LogWorld: Bringing World /Game/Protoman/Maps/UEDPIE_0_Level00.level00 up for play (max tick rate 60) at 2017.08.01-20.13.44
+[2017.08.02-03.13.44:823][112]LogWorld: Bringing up level for play took: 0.006648
+[2017.08.02-03.13.44:829][112]PIE: Info Play in editor start time for /Game/Protoman/Maps/UEDPIE_0_Level00 0.305
+[2017.08.02-03.15.05:159][295]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.08.02-03.15.05:197][295]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.02-03.15.05:198][295]PIE: New page: PIE session: Level00 (Aug 1, 2017, 1:15:05 PM)
+[2017.08.02-03.15.05:198][295]LogPlayLevel: Creating play world package: /Game/Protoman/Maps/UEDPIE_0_Level00
+[2017.08.02-03.15.05:214][295]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015868s)
+[2017.08.02-03.15.05:215][295]LogAIModule: Creating AISystem for world level00
+[2017.08.02-03.15.05:215][295]LogPlayLevel: PIE: World Init took: (0.001259s)
+[2017.08.02-03.15.05:215][295]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Protoman/Maps/Level00.level00 to /Game/Protoman/Maps/UEDPIE_0_Level00.level00 (0.017527s)
+[2017.08.02-03.15.05:237][295]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.02-03.15.05:257][295]LogInit: FAudioDevice initialized.
+[2017.08.02-03.15.05:318][295]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.08.02-03.15.05:332][295]LogWorld: Bringing World /Game/Protoman/Maps/UEDPIE_0_Level00.level00 up for play (max tick rate 60) at 2017.08.01-20.15.05
+[2017.08.02-03.15.05:333][295]LogWorld: Bringing up level for play took: 0.011390
+[2017.08.02-03.15.05:344][295]PIE: Info Play in editor start time for /Game/Protoman/Maps/UEDPIE_0_Level00 0.821
+[2017.08.02-03.22.37:261][948]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Protoman/Maps/Level00' took 0.023
+[2017.08.02-03.22.37:263][948]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Protoman/Blueprints/Protoman] ([1] browsable assets)...
+[2017.08.02-03.22.37:263][948]OBJ SavePackage: Finished generating thumbnails for package [/Game/Protoman/Blueprints/Protoman]
+[2017.08.02-03.22.37:407][948]LogSavePackage: Save=119.90ms
+[2017.08.02-03.22.37:408][948]LogSavePackage: Moving '../../../../../../Users/nixin/Documents/Unreal Projects/ProtoMan/Saved/Protoman_Auto141515AD140B815B166A8DC87557DC44D.tmp' to '../../../../../../Users/nixin/Documents/Unreal Projects/ProtoMan/Saved/Autosaves/Game/Protoman/Blueprints/Protoman_Auto1.uasset'
+[2017.08.02-03.22.37:410][948]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/nixin/Documents/Unreal Projects/ProtoMan/Saved/Autosaves/Game/Protoman/Blueprints/Protoman_Auto1.uasset
+[2017.08.02-03.22.37:410][948]LogFileHelpers: Auto-saving content packages took 0.149
+[2017.08.02-03.37.25:939][280]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.08.02-03.43.11:654][  4]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Protoman/Maps/Level00' took 0.034
+[2017.08.02-03.43.11:657][  4]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Protoman/Blueprints/Protoman] ([1] browsable assets)...
+[2017.08.02-03.43.11:657][  4]OBJ SavePackage: Finished generating thumbnails for package [/Game/Protoman/Blueprints/Protoman]
+[2017.08.02-03.43.11:799][  4]LogSavePackage: Save=115.74ms
+[2017.08.02-03.43.11:799][  4]LogSavePackage: Moving '../../../../../../Users/nixin/Documents/Unreal Projects/ProtoMan/Saved/Protoman_Auto29043745540DB9595B75BA0B2F93AED9E.tmp' to '../../../../../../Users/nixin/Documents/Unreal Projects/ProtoMan/Saved/Autosaves/Game/Protoman/Blueprints/Protoman_Auto2.uasset'
+[2017.08.02-03.43.11:801][  4]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/nixin/Documents/Unreal Projects/ProtoMan/Saved/Autosaves/Game/Protoman/Blueprints/Protoman_Auto2.uasset
+[2017.08.02-03.43.11:801][  4]LogFileHelpers: Auto-saving content packages took 0.145
+[2017.08.02-03.50.21:303][571]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.08.02-03.50.21:340][571]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.08.02-03.50.21:340][571]LogPlayLevel: [PlayLevel] Compiling protoman before play...
+[2017.08.02-03.50.21:381][571]LogPlayLevel: [PlayLevel]   Compiling w_hud as a dependent...
+[2017.08.02-03.50.21:572][571]LogPlayLevel: PlayLevel: Blueprint regeneration took 232 ms (2 blueprints)
+[2017.08.02-03.50.21:572][571]PIE: New page: PIE session: Level00 (Aug 1, 2017, 1:50:21 PM)
+[2017.08.02-03.50.21:572][571]LogPlayLevel: Creating play world package: /Game/Protoman/Maps/UEDPIE_0_Level00
+[2017.08.02-03.50.21:581][571]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008624s)
+[2017.08.02-03.50.21:582][571]LogAIModule: Creating AISystem for world level00
+[2017.08.02-03.50.21:582][571]LogPlayLevel: PIE: World Init took: (0.001300s)
+[2017.08.02-03.50.21:583][571]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Protoman/Maps/Level00.level00 to /Game/Protoman/Maps/UEDPIE_0_Level00.level00 (0.010420s)
+[2017.08.02-03.50.21:600][571]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.02-03.50.21:617][571]LogInit: FAudioDevice initialized.
+[2017.08.02-03.50.21:668][571]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.08.02-03.50.21:675][571]LogWorld: Bringing World /Game/Protoman/Maps/UEDPIE_0_Level00.level00 up for play (max tick rate 0) at 2017.08.01-20.50.21
+[2017.08.02-03.50.21:676][571]LogWorld: Bringing up level for play took: 0.005348
+[2017.08.02-03.50.21:683][571]PIE: Info Play in editor start time for /Game/Protoman/Maps/UEDPIE_0_Level00 1.161
+[2017.08.02-03.50.51:669][616]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.08.02-03.50.51:690][616]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.02-03.50.51:690][616]PIE: New page: PIE session: Level00 (Aug 1, 2017, 1:50:51 PM)
+[2017.08.02-03.50.51:690][616]LogPlayLevel: Creating play world package: /Game/Protoman/Maps/UEDPIE_0_Level00
+[2017.08.02-03.50.51:700][616]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009317s)
+[2017.08.02-03.50.51:700][616]LogAIModule: Creating AISystem for world level00
+[2017.08.02-03.50.51:701][616]LogPlayLevel: PIE: World Init took: (0.001019s)
+[2017.08.02-03.50.51:701][616]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Protoman/Maps/Level00.level00 to /Game/Protoman/Maps/UEDPIE_0_Level00.level00 (0.010630s)
+[2017.08.02-03.50.51:725][616]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.02-03.50.51:744][616]LogInit: FAudioDevice initialized.
+[2017.08.02-03.50.51:805][616]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.08.02-03.50.51:822][616]LogWorld: Bringing World /Game/Protoman/Maps/UEDPIE_0_Level00.level00 up for play (max tick rate 0) at 2017.08.01-20.50.51
+[2017.08.02-03.50.51:822][616]LogWorld: Bringing up level for play took: 0.013357
+[2017.08.02-03.50.51:834][616]PIE: Info Play in editor start time for /Game/Protoman/Maps/UEDPIE_0_Level00 -0.688
+[2017.08.02-03.51.31:525][  7]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.08.02-03.51.31:555][  7]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.02-03.51.31:555][  7]PIE: New page: PIE session: Level00 (Aug 1, 2017, 1:51:31 PM)
+[2017.08.02-03.51.31:555][  7]LogPlayLevel: Creating play world package: /Game/Protoman/Maps/UEDPIE_0_Level00
+[2017.08.02-03.51.31:565][  7]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009967s)
+[2017.08.02-03.51.31:566][  7]LogAIModule: Creating AISystem for world level00
+[2017.08.02-03.51.31:566][  7]LogPlayLevel: PIE: World Init took: (0.000896s)
+[2017.08.02-03.51.31:566][  7]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Protoman/Maps/Level00.level00 to /Game/Protoman/Maps/UEDPIE_0_Level00.level00 (0.011086s)
+[2017.08.02-03.51.31:590][  7]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.02-03.51.31:608][  7]LogInit: FAudioDevice initialized.
+[2017.08.02-03.51.31:660][  7]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.08.02-03.51.31:667][  7]LogWorld: Bringing World /Game/Protoman/Maps/UEDPIE_0_Level00.level00 up for play (max tick rate 0) at 2017.08.01-20.51.31
+[2017.08.02-03.51.31:667][  7]LogWorld: Bringing up level for play took: 0.005282
+[2017.08.02-03.51.31:679][  7]PIE: Info Play in editor start time for /Game/Protoman/Maps/UEDPIE_0_Level00 -0.843
+[2017.08.02-03.56.59:299][657]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Protoman/Maps/Level00' took 0.023
+[2017.08.02-03.56.59:300][657]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Protoman/Blueprints/Protoman] ([1] browsable assets)...
+[2017.08.02-03.56.59:300][657]OBJ SavePackage: Finished generating thumbnails for package [/Game/Protoman/Blueprints/Protoman]
+[2017.08.02-03.56.59:445][657]LogSavePackage: Save=116.51ms
+[2017.08.02-03.56.59:445][657]LogSavePackage: Moving '../../../../../../Users/nixin/Documents/Unreal Projects/ProtoMan/Saved/Protoman_Auto34AF74C2740DABD14B21C78B3820CF42D.tmp' to '../../../../../../Users/nixin/Documents/Unreal Projects/ProtoMan/Saved/Autosaves/Game/Protoman/Blueprints/Protoman_Auto3.uasset'
+[2017.08.02-03.56.59:459][657]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/nixin/Documents/Unreal Projects/ProtoMan/Saved/Autosaves/Game/Protoman/Blueprints/Protoman_Auto3.uasset
+[2017.08.02-03.56.59:459][657]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Protoman/Blueprints/w_hud] ([1] browsable assets)...
+[2017.08.02-03.56.59:459][657]OBJ SavePackage: Finished generating thumbnails for package [/Game/Protoman/Blueprints/w_hud]
+[2017.08.02-03.56.59:500][657]LogSavePackage: Save=20.48ms
+[2017.08.02-03.56.59:502][657]LogSavePackage: Moving '../../../../../../Users/nixin/Documents/Unreal Projects/ProtoMan/Saved/w_hud_Auto30CFAA38E4D6CD671417D97B4EF261113.tmp' to '../../../../../../Users/nixin/Documents/Unreal Projects/ProtoMan/Saved/Autosaves/Game/Protoman/Blueprints/w_hud_Auto3.uasset'
+[2017.08.02-03.56.59:503][657]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/nixin/Documents/Unreal Projects/ProtoMan/Saved/Autosaves/Game/Protoman/Blueprints/w_hud_Auto3.uasset
+[2017.08.02-03.56.59:503][657]LogFileHelpers: Auto-saving content packages took 0.204
+[2017.08.02-03.57.12:754][381]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.08.02-03.57.12:775][381]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.02-03.57.12:775][381]PIE: New page: PIE session: Level00 (Aug 1, 2017, 1:57:12 PM)
+[2017.08.02-03.57.12:775][381]LogPlayLevel: Creating play world package: /Game/Protoman/Maps/UEDPIE_0_Level00
+[2017.08.02-03.57.12:786][381]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010777s)
+[2017.08.02-03.57.12:786][381]LogAIModule: Creating AISystem for world level00
+[2017.08.02-03.57.12:787][381]LogPlayLevel: PIE: World Init took: (0.000951s)
+[2017.08.02-03.57.12:787][381]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Protoman/Maps/Level00.level00 to /Game/Protoman/Maps/UEDPIE_0_Level00.level00 (0.012037s)
+[2017.08.02-03.57.12:806][381]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.02-03.57.12:827][381]LogInit: FAudioDevice initialized.
+[2017.08.02-03.57.12:875][381]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.08.02-03.57.12:882][381]LogWorld: Bringing World /Game/Protoman/Maps/UEDPIE_0_Level00.level00 up for play (max tick rate 0) at 2017.08.01-20.57.12
+[2017.08.02-03.57.12:882][381]LogWorld: Bringing up level for play took: 0.006144
+[2017.08.02-03.57.12:891][381]PIE: Info Play in editor start time for /Game/Protoman/Maps/UEDPIE_0_Level00 0.369
+[2017.08.02-03.57.59:367][914]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite_0)
+[2017.08.02-03.58.03:516][201]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite_0)
+[2017.08.02-03.58.05:061][377]Cmd: EDIT COPY
+[2017.08.02-03.58.06:361][530]Cmd: EDIT PASTE
+[2017.08.02-03.58.20:610][701]Cmd: TRANSACTION UNDO
+[2017.08.02-03.58.20:610][701]LogEditorTransaction: Undo Move Actors
+[2017.08.02-03.58.20:614][701]LogActorComponent: ~FComponentReregisterContext: (/Game/Protoman/Maps/Level00.level00:PersistentLevel.Background_Sprite54.RenderComponent) Component already registered.
+[2017.08.02-03.58.22:594][817]LogEditorViewport: Clicking Background
+[2017.08.02-03.58.24:151][959]Cmd: TRANSACTION UNDO
+[2017.08.02-03.58.24:151][959]LogEditorTransaction: Undo Clicking Background
+[2017.08.02-03.58.28:369][234]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2017.08.02-03.58.30:832][455]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge)
+[2017.08.02-03.58.33:920][703]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2017.08.02-03.58.37:688][ 56]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge)
+[2017.08.02-03.58.40:609][318]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite_1)
+[2017.08.02-03.58.41:610][410]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2017.08.02-03.58.44:090][618]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite_1)
+[2017.08.02-03.58.52:002][418]Cmd: EDIT COPY
+[2017.08.02-03.58.52:775][506]Cmd: EDIT PASTE
+[2017.08.02-03.59.02:232][348]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite_0)
+[2017.08.02-03.59.04:187][498]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite_1)
+[2017.08.02-03.59.07:203][705]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Background_Sprite_3)
+[2017.08.02-03.59.22:296][858]Cmd: EDIT COPY
+[2017.08.02-03.59.23:027][938]Cmd: EDIT PASTE
+[2017.08.02-03.59.28:152][349]Cmd: EDIT COPY
+[2017.08.02-03.59.28:586][397]Cmd: EDIT PASTE
+[2017.08.02-03.59.32:603][719]Cmd: EDIT COPY
+[2017.08.02-03.59.32:932][755]Cmd: EDIT PASTE
+[2017.08.02-03.59.36:850][ 16]Cmd: EDIT COPY
+[2017.08.02-03.59.37:166][ 50]Cmd: EDIT PASTE
+[2017.08.02-03.59.44:694][781]Cmd: EDIT COPY
+[2017.08.02-03.59.44:978][811]Cmd: EDIT PASTE
+[2017.08.02-03.59.50:320][216]Cmd: EDIT COPY
+[2017.08.02-03.59.50:573][242]Cmd: EDIT PASTE
+[2017.08.02-03.59.53:264][451]Cmd: EDIT COPY
+[2017.08.02-03.59.53:521][479]Cmd: EDIT PASTE
+[2017.08.02-03.59.59:445][884]Cmd: EDIT COPY
+[2017.08.02-03.59.59:683][906]Cmd: EDIT PASTE
+[2017.08.02-04.00.01:976][ 77]Cmd: EDIT COPY
+[2017.08.02-04.00.02:184][ 98]Cmd: EDIT PASTE
+[2017.08.02-04.00.04:514][324]LogEditorViewport: Clicking on Actor (context menu): PaperSpriteActor (Background_Sprite_9)
+[2017.08.02-04.00.06:497][502]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.08.02-04.00.06:528][502]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.02-04.00.06:528][502]PIE: New page: PIE session: Level00 (Aug 1, 2017, 2:00:06 PM)
+[2017.08.02-04.00.06:528][502]LogPlayLevel: Creating play world package: /Game/Protoman/Maps/UEDPIE_0_Level00
+[2017.08.02-04.00.06:560][502]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032412s)
+[2017.08.02-04.00.06:561][502]LogAIModule: Creating AISystem for world level00
+[2017.08.02-04.00.06:561][502]LogPlayLevel: PIE: World Init took: (0.001103s)
+[2017.08.02-04.00.06:562][502]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Protoman/Maps/Level00.level00 to /Game/Protoman/Maps/UEDPIE_0_Level00.level00 (0.033935s)
+[2017.08.02-04.00.06:616][502]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.02-04.00.06:634][502]LogInit: FAudioDevice initialized.
+[2017.08.02-04.00.06:683][502]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.08.02-04.00.06:693][502]LogWorld: Bringing World /Game/Protoman/Maps/UEDPIE_0_Level00.level00 up for play (max tick rate 0) at 2017.08.01-21.00.06
+[2017.08.02-04.00.06:694][502]LogWorld: Bringing up level for play took: 0.008591
+[2017.08.02-04.00.06:699][502]PIE: Info Play in editor start time for /Game/Protoman/Maps/UEDPIE_0_Level00 0.177
+[2017.08.02-04.00.11:374][773]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite_37)
+[2017.08.02-04.00.15:113][996]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite_36)
+[2017.08.02-04.00.30:186][802]Cmd: EDIT COPY
+[2017.08.02-04.00.30:886][849]Cmd: EDIT PASTE
+[2017.08.02-04.00.38:558][315]Cmd: EDIT COPY
+[2017.08.02-04.00.38:866][337]Cmd: EDIT PASTE
+[2017.08.02-04.00.42:261][452]Cmd: EDIT COPY
+[2017.08.02-04.00.42:517][468]Cmd: EDIT PASTE
+[2017.08.02-04.00.46:552][624]Cmd: EDIT COPY
+[2017.08.02-04.00.46:787][641]Cmd: EDIT PASTE
+[2017.08.02-04.00.49:839][744]Cmd: EDIT COPY
+[2017.08.02-04.00.50:067][757]Cmd: EDIT PASTE
+[2017.08.02-04.00.53:413][844]Cmd: EDIT COPY
+[2017.08.02-04.00.53:637][855]Cmd: EDIT PASTE
+[2017.08.02-04.00.55:090][883]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.08.02-04.00.55:109][883]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.02-04.00.55:109][883]PIE: New page: PIE session: Level00 (Aug 1, 2017, 2:00:55 PM)
+[2017.08.02-04.00.55:109][883]LogPlayLevel: Creating play world package: /Game/Protoman/Maps/UEDPIE_0_Level00
+[2017.08.02-04.00.55:249][883]LogPlayLevel: PIE: StaticDuplicateObject took: (0.139658s)
+[2017.08.02-04.00.55:250][883]LogAIModule: Creating AISystem for world level00
+[2017.08.02-04.00.55:250][883]LogPlayLevel: PIE: World Init took: (0.001617s)
+[2017.08.02-04.00.55:251][883]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Protoman/Maps/Level00.level00 to /Game/Protoman/Maps/UEDPIE_0_Level00.level00 (0.142272s)
+[2017.08.02-04.00.55:411][883]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.02-04.00.55:429][883]LogInit: FAudioDevice initialized.
+[2017.08.02-04.00.55:474][883]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.08.02-04.00.55:490][883]LogWorld: Bringing World /Game/Protoman/Maps/UEDPIE_0_Level00.level00 up for play (max tick rate 0) at 2017.08.01-21.00.55
+[2017.08.02-04.00.55:493][883]LogWorld: Bringing up level for play took: 0.015861
+[2017.08.02-04.00.55:502][883]PIE: Info Play in editor start time for /Game/Protoman/Maps/UEDPIE_0_Level00 0.979
+[2017.08.02-04.01.54:660][745]LogEditorViewport: Clicking on Actor (context menu): PaperSpriteActor (Background_Sprite_21)
+[2017.08.02-04.01.55:993][798]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite_90)
+[2017.08.02-04.08.46:432][933]LogSavePackage: Save=3258.29ms
+[2017.08.02-04.08.46:432][933]LogSavePackage: Moving '../../../../../../Users/nixin/Documents/Unreal Projects/ProtoMan/Saved/Level00_Auto4793CB4A9457231C53B5AEB9D756F9980.tmp' to '../../../../../../Users/nixin/Documents/Unreal Projects/ProtoMan/Saved/Autosaves/Game/Protoman/Maps/Level00_Auto4.umap'
+[2017.08.02-04.08.46:437][933]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/nixin/Documents/Unreal Projects/ProtoMan/Saved/Autosaves/Game/Protoman/Maps/Level00_Auto4.umap
+[2017.08.02-04.08.46:440][933]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Protoman/Maps/Level00' took 3.345
+[2017.08.02-04.08.46:440][933]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 3.345
+[2017.08.02-04.08.46:446][933]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Protoman/Blueprints/Protoman] ([1] browsable assets)...
+[2017.08.02-04.08.46:446][933]OBJ SavePackage: Finished generating thumbnails for package [/Game/Protoman/Blueprints/Protoman]
+[2017.08.02-04.08.46:615][933]LogSavePackage: Save=136.37ms
+[2017.08.02-04.08.46:615][933]LogSavePackage: Moving '../../../../../../Users/nixin/Documents/Unreal Projects/ProtoMan/Saved/Protoman_Auto44E80ED4D405DECB81F6CB9BE78698A58.tmp' to '../../../../../../Users/nixin/Documents/Unreal Projects/ProtoMan/Saved/Autosaves/Game/Protoman/Blueprints/Protoman_Auto4.uasset'
+[2017.08.02-04.08.46:618][933]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/nixin/Documents/Unreal Projects/ProtoMan/Saved/Autosaves/Game/Protoman/Blueprints/Protoman_Auto4.uasset
+[2017.08.02-04.08.46:618][933]LogFileHelpers: Auto-saving content packages took 0.174
+[2017.08.02-04.12.07:387][ 57]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.08.02-04.12.07:416][ 57]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.02-04.12.07:416][ 57]PIE: New page: PIE session: Level00 (Aug 1, 2017, 2:12:07 PM)
+[2017.08.02-04.12.07:417][ 57]LogPlayLevel: Creating play world package: /Game/Protoman/Maps/UEDPIE_0_Level00
+[2017.08.02-04.12.07:556][ 57]LogPlayLevel: PIE: StaticDuplicateObject took: (0.139319s)
+[2017.08.02-04.12.07:559][ 57]LogAIModule: Creating AISystem for world level00
+[2017.08.02-04.12.07:560][ 57]LogPlayLevel: PIE: World Init took: (0.003351s)
+[2017.08.02-04.12.07:563][ 57]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Protoman/Maps/Level00.level00 to /Game/Protoman/Maps/UEDPIE_0_Level00.level00 (0.146270s)
+[2017.08.02-04.12.07:601][ 57]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.02-04.12.07:622][ 57]LogInit: FAudioDevice initialized.
+[2017.08.02-04.12.07:674][ 57]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.08.02-04.12.07:695][ 57]LogWorld: Bringing World /Game/Protoman/Maps/UEDPIE_0_Level00.level00 up for play (max tick rate 60) at 2017.08.01-21.12.07
+[2017.08.02-04.12.07:698][ 57]LogWorld: Bringing up level for play took: 0.022056
+[2017.08.02-04.12.07:716][ 57]PIE: Info Play in editor start time for /Game/Protoman/Maps/UEDPIE_0_Level00 1.193
+[2017.08.02-04.12.58:207][800]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.08.02-04.12.58:232][800]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.02-04.12.58:232][800]PIE: New page: PIE session: Level00 (Aug 1, 2017, 2:12:58 PM)
+[2017.08.02-04.12.58:232][800]LogPlayLevel: Creating play world package: /Game/Protoman/Maps/UEDPIE_0_Level00
+[2017.08.02-04.12.58:384][800]LogPlayLevel: PIE: StaticDuplicateObject took: (0.151550s)
+[2017.08.02-04.12.58:385][800]LogAIModule: Creating AISystem for world level00
+[2017.08.02-04.12.58:385][800]LogPlayLevel: PIE: World Init took: (0.001463s)
+[2017.08.02-04.12.58:386][800]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Protoman/Maps/Level00.level00 to /Game/Protoman/Maps/UEDPIE_0_Level00.level00 (0.154146s)
+[2017.08.02-04.12.58:411][800]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.02-04.12.58:428][800]LogInit: FAudioDevice initialized.
+[2017.08.02-04.12.58:487][800]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.08.02-04.12.58:504][800]LogWorld: Bringing World /Game/Protoman/Maps/UEDPIE_0_Level00.level00 up for play (max tick rate 60) at 2017.08.01-21.12.58
+[2017.08.02-04.12.58:508][800]LogWorld: Bringing up level for play took: 0.020142
+[2017.08.02-04.12.58:519][800]PIE: Info Play in editor start time for /Game/Protoman/Maps/UEDPIE_0_Level00 -0.003
+[2017.08.02-04.19.37:532][414]LogSavePackage: Save=9.82ms
+[2017.08.02-04.19.37:532][414]LogSavePackage: Moving '../../../../../../Users/nixin/Documents/Unreal Projects/ProtoMan/Saved/a_run_shotE316D1B64898D4D8782FAE8255873305.tmp' to '../../../../../../Users/nixin/Documents/Unreal Projects/ProtoMan/Content/Protoman/Sprites/protoman/a_run_shot.uasset'
+[2017.08.02-04.19.37:538][414]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/nixin/Documents/Unreal Projects/ProtoMan/Content/Protoman/Sprites/protoman/a_run_shot.uasset
+[2017.08.02-04.22.23:382][797]BlueprintLog: New page: Compile protoman
+[2017.08.02-04.22.24:035][803]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Protoman/Blueprints/Protoman" FILE="../../../../../../Users/nixin/Documents/Unreal Projects/ProtoMan/Content/Protoman/Blueprints/Protoman.uasset" SILENT=true
+[2017.08.02-04.22.24:210][803]LogSavePackage: Save=128.57ms
+[2017.08.02-04.22.24:211][803]LogSavePackage: Moving '../../../../../../Users/nixin/Documents/Unreal Projects/ProtoMan/Saved/ProtomanF26D754C4A461EE6F8E7229ED4412ECB.tmp' to '../../../../../../Users/nixin/Documents/Unreal Projects/ProtoMan/Content/Protoman/Blueprints/Protoman.uasset'
+[2017.08.02-04.22.24:219][803]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/nixin/Documents/Unreal Projects/ProtoMan/Content/Protoman/Blueprints/Protoman.uasset
+[2017.08.02-04.23.00:049][876]LogSavePackage: Save=8.43ms
+[2017.08.02-04.23.00:049][876]LogSavePackage: Moving '../../../../../../Users/nixin/Documents/Unreal Projects/ProtoMan/Saved/states_protoman6A7328E04FF556016C755A88E76EA115.tmp' to '../../../../../../Users/nixin/Documents/Unreal Projects/ProtoMan/Content/Protoman/Blueprints/states_protoman.uasset'
+[2017.08.02-04.23.00:052][876]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/nixin/Documents/Unreal Projects/ProtoMan/Content/Protoman/Blueprints/states_protoman.uasset
+[2017.08.02-04.23.40:513][870]LogSlate: Took 0.000211 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.08.02-04.24.29:247][ 98]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Protoman/Blueprints/Protoman" FILE="../../../../../../Users/nixin/Documents/Unreal Projects/ProtoMan/Content/Protoman/Blueprints/Protoman.uasset" SILENT=true
+[2017.08.02-04.24.29:423][ 98]LogSavePackage: Save=154.07ms
+[2017.08.02-04.24.29:423][ 98]LogSavePackage: Moving '../../../../../../Users/nixin/Documents/Unreal Projects/ProtoMan/Saved/ProtomanC039741D4DEDFBB893DAC7BC0193FC9B.tmp' to '../../../../../../Users/nixin/Documents/Unreal Projects/ProtoMan/Content/Protoman/Blueprints/Protoman.uasset'
+[2017.08.02-04.24.29:428][ 98]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/nixin/Documents/Unreal Projects/ProtoMan/Content/Protoman/Blueprints/Protoman.uasset
+[2017.08.02-04.24.38:612][526]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.08.02-04.24.38:647][526]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.08.02-04.24.38:647][526]LogPlayLevel: [PlayLevel] Compiling protoman before play...
+[2017.08.02-04.24.38:860][526]LogPlayLevel: [PlayLevel] Compiling PROTO_BP_AnimBlueprint_0 before play...
+[2017.08.02-04.24.39:021][526]LogPlayLevel: PlayLevel: Blueprint regeneration took 373 ms (2 blueprints)
+[2017.08.02-04.24.39:021][526]PIE: New page: PIE session: Level00 (Aug 1, 2017, 2:24:39 PM)
+[2017.08.02-04.24.39:021][526]LogPlayLevel: Creating play world package: /Game/Protoman/Maps/UEDPIE_0_Level00
+[2017.08.02-04.24.39:192][526]LogPlayLevel: PIE: StaticDuplicateObject took: (0.171449s)
+[2017.08.02-04.24.39:193][526]LogAIModule: Creating AISystem for world level00
+[2017.08.02-04.24.39:194][526]LogPlayLevel: PIE: World Init took: (0.001284s)
+[2017.08.02-04.24.39:195][526]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Protoman/Maps/Level00.level00 to /Game/Protoman/Maps/UEDPIE_0_Level00.level00 (0.173721s)
+[2017.08.02-04.24.39:225][526]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.02-04.24.39:248][526]LogInit: FAudioDevice initialized.
+[2017.08.02-04.24.39:295][526]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.08.02-04.24.39:315][526]LogWorld: Bringing World /Game/Protoman/Maps/UEDPIE_0_Level00.level00 up for play (max tick rate 60) at 2017.08.01-21.24.39
+[2017.08.02-04.24.39:317][526]LogWorld: Bringing up level for play took: 0.020843
+[2017.08.02-04.24.39:330][526]PIE: Info Play in editor start time for /Game/Protoman/Maps/UEDPIE_0_Level00 0.807
+[2017.08.02-04.24.53:046][979]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.08.02-04.24.53:073][979]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.02-04.24.53:073][979]PIE: New page: PIE session: Level00 (Aug 1, 2017, 2:24:53 PM)
+[2017.08.02-04.24.53:073][979]LogPlayLevel: Creating play world package: /Game/Protoman/Maps/UEDPIE_0_Level00
+[2017.08.02-04.24.53:263][979]LogPlayLevel: PIE: StaticDuplicateObject took: (0.189596s)
+[2017.08.02-04.24.53:264][979]LogAIModule: Creating AISystem for world level00
+[2017.08.02-04.24.53:264][979]LogPlayLevel: PIE: World Init took: (0.001541s)
+[2017.08.02-04.24.53:265][979]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Protoman/Maps/Level00.level00 to /Game/Protoman/Maps/UEDPIE_0_Level00.level00 (0.192263s)
+[2017.08.02-04.24.53:292][979]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.02-04.24.53:313][979]LogInit: FAudioDevice initialized.
+[2017.08.02-04.24.53:373][979]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.08.02-04.24.53:434][979]LogWorld: Bringing World /Game/Protoman/Maps/UEDPIE_0_Level00.level00 up for play (max tick rate 60) at 2017.08.01-21.24.53
+[2017.08.02-04.24.53:439][979]LogWorld: Bringing up level for play took: 0.061819
+[2017.08.02-04.24.53:460][979]PIE: Info Play in editor start time for /Game/Protoman/Maps/UEDPIE_0_Level00 0.937
+[2017.08.02-04.25.57:053][189]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.08.02-04.25.57:079][189]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.08.02-04.25.57:079][189]LogPlayLevel: [PlayLevel] Compiling protoman before play...
+[2017.08.02-04.25.57:286][189]LogPlayLevel: PlayLevel: Blueprint regeneration took 206 ms (1 blueprints)
+[2017.08.02-04.25.57:286][189]PIE: New page: PIE session: Level00 (Aug 1, 2017, 2:25:57 PM)
+[2017.08.02-04.25.57:286][189]LogPlayLevel: Creating play world package: /Game/Protoman/Maps/UEDPIE_0_Level00
+[2017.08.02-04.25.57:431][189]LogPlayLevel: PIE: StaticDuplicateObject took: (0.144621s)
+[2017.08.02-04.25.57:433][189]LogAIModule: Creating AISystem for world level00
+[2017.08.02-04.25.57:434][189]LogPlayLevel: PIE: World Init took: (0.002634s)
+[2017.08.02-04.25.57:436][189]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Protoman/Maps/Level00.level00 to /Game/Protoman/Maps/UEDPIE_0_Level00.level00 (0.149540s)
+[2017.08.02-04.25.57:471][189]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.02-04.25.57:490][189]LogInit: FAudioDevice initialized.
+[2017.08.02-04.25.57:541][189]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.08.02-04.25.57:559][189]LogWorld: Bringing World /Game/Protoman/Maps/UEDPIE_0_Level00.level00 up for play (max tick rate 60) at 2017.08.01-21.25.57
+[2017.08.02-04.25.57:561][189]LogWorld: Bringing up level for play took: 0.018727
+[2017.08.02-04.25.57:572][189]PIE: Info Play in editor start time for /Game/Protoman/Maps/UEDPIE_0_Level00 1.05
+[2017.08.02-04.28.23:036][112]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Protoman/Maps/Level00' took 0.029
+[2017.08.02-04.28.23:038][112]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Protoman/Blueprints/Protoman] ([1] browsable assets)...
+[2017.08.02-04.28.23:038][112]OBJ SavePackage: Finished generating thumbnails for package [/Game/Protoman/Blueprints/Protoman]
+[2017.08.02-04.28.23:204][112]LogSavePackage: Save=133.89ms
+[2017.08.02-04.28.23:204][112]LogSavePackage: Moving '../../../../../../Users/nixin/Documents/Unreal Projects/ProtoMan/Saved/Protoman_Auto5A023649C47CD50681DDAB6B545132B30.tmp' to '../../../../../../Users/nixin/Documents/Unreal Projects/ProtoMan/Saved/Autosaves/Game/Protoman/Blueprints/Protoman_Auto5.uasset'
+[2017.08.02-04.28.23:206][112]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/nixin/Documents/Unreal Projects/ProtoMan/Saved/Autosaves/Game/Protoman/Blueprints/Protoman_Auto5.uasset
+[2017.08.02-04.28.23:206][112]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Protoman/Blueprints/w_hud] ([1] browsable assets)...
+[2017.08.02-04.28.23:206][112]OBJ SavePackage: Finished generating thumbnails for package [/Game/Protoman/Blueprints/w_hud]
+[2017.08.02-04.28.23:257][112]LogSavePackage: Save=24.98ms
+[2017.08.02-04.28.23:257][112]LogSavePackage: Moving '../../../../../../Users/nixin/Documents/Unreal Projects/ProtoMan/Saved/w_hud_Auto51C8A4BF04D88C0025281229EE5D5A280.tmp' to '../../../../../../Users/nixin/Documents/Unreal Projects/ProtoMan/Saved/Autosaves/Game/Protoman/Blueprints/w_hud_Auto5.uasset'
+[2017.08.02-04.28.23:259][112]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/nixin/Documents/Unreal Projects/ProtoMan/Saved/Autosaves/Game/Protoman/Blueprints/w_hud_Auto5.uasset
+[2017.08.02-04.28.23:259][112]LogFileHelpers: Auto-saving content packages took 0.222
+[2017.08.02-04.34.19:737][716]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Protoman/Blueprints/Protoman" FILE="../../../../../../Users/nixin/Documents/Unreal Projects/ProtoMan/Content/Protoman/Blueprints/Protoman.uasset" SILENT=true
+[2017.08.02-04.34.19:900][716]LogSavePackage: Save=136.83ms
+[2017.08.02-04.34.19:900][716]LogSavePackage: Moving '../../../../../../Users/nixin/Documents/Unreal Projects/ProtoMan/Saved/Protoman868BD48848F1AFD805B7758FAB73F9CA.tmp' to '../../../../../../Users/nixin/Documents/Unreal Projects/ProtoMan/Content/Protoman/Blueprints/Protoman.uasset'
+[2017.08.02-04.34.19:907][716]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/nixin/Documents/Unreal Projects/ProtoMan/Content/Protoman/Blueprints/Protoman.uasset
+[2017.08.02-04.34.19:913][716]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Protoman/Blueprints/w_hud" FILE="../../../../../../Users/nixin/Documents/Unreal Projects/ProtoMan/Content/Protoman/Blueprints/w_hud.uasset" SILENT=true
+[2017.08.02-04.34.19:960][716]LogSavePackage: Save=22.52ms
+[2017.08.02-04.34.19:960][716]LogSavePackage: Moving '../../../../../../Users/nixin/Documents/Unreal Projects/ProtoMan/Saved/w_hud9EF97BD1488C2CAEA1858FB944D0660C.tmp' to '../../../../../../Users/nixin/Documents/Unreal Projects/ProtoMan/Content/Protoman/Blueprints/w_hud.uasset'
+[2017.08.02-04.34.19:967][716]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/nixin/Documents/Unreal Projects/ProtoMan/Content/Protoman/Blueprints/w_hud.uasset
+[2017.08.02-04.34.23:141][716]LogSavePackage: Save=3053.23ms
+[2017.08.02-04.34.23:141][716]LogSavePackage: Moving '../../../../../../Users/nixin/Documents/Unreal Projects/ProtoMan/Saved/Level00C505B15C4EEA96E6D46505B9CFD4CAF8.tmp' to '../../../../../../Users/nixin/Documents/Unreal Projects/ProtoMan/Content/Protoman/Maps/Level00.umap'
+[2017.08.02-04.34.23:151][716]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/nixin/Documents/Unreal Projects/ProtoMan/Content/Protoman/Maps/Level00.umap
+[2017.08.02-04.34.23:195][716]LogFileHelpers: Saving map 'Level00' took 3.223
+[2017.08.02-04.34.23:290][716]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.08.02-04.34.23:585][717]Cmd: QUIT_EDITOR
+[2017.08.02-04.34.24:369][717]LogExit: Preparing to exit.
+[2017.08.02-04.34.25:147][717]LogDirectoryWatcher: A directory notification for 'C:/Users/nixin/Documents/Unreal Projects/ProtoMan/Content/' was aborted.
+[2017.08.02-04.34.25:288][717]LogExit: Editor shut down
+[2017.08.02-04.34.25:336][717]LogExit: Transaction tracking system shut down
+[2017.08.02-04.34.25:656][717]LogObj: Freed 0b from 0 cluster array pools.
+[2017.08.02-04.34.25:657][717]LogExit: Object subsystem successfully closed.
+[2017.08.02-04.34.25:702][717]LogD3D11RHI: Shutdown
+[2017.08.02-04.34.25:702][717]LogD3D11RHI: CleanupD3DDevice
+[2017.08.02-04.34.25:869][717]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.08.02-04.34.25:886][717]LogModuleManager: Shutting down and abandoning module SequencerWidgets (536)
+[2017.08.02-04.34.25:886][717]LogModuleManager: Shutting down and abandoning module TextureEditor (534)
+[2017.08.02-04.34.25:886][717]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (532)
+[2017.08.02-04.34.25:886][717]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (530)
+[2017.08.02-04.34.25:887][717]LogModuleManager: Shutting down and abandoning module BlueprintGraph (528)
+[2017.08.02-04.34.25:887][717]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (526)
+[2017.08.02-04.34.25:887][717]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2017.08.02-04.34.25:887][717]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2017.08.02-04.34.25:887][717]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2017.08.02-04.34.25:887][717]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2017.08.02-04.34.25:887][717]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2017.08.02-04.34.25:894][717]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2017.08.02-04.34.25:894][717]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2017.08.02-04.34.25:894][717]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2017.08.02-04.34.25:895][717]LogDirectoryWatcher: A directory notification for 'C:/Users/nixin/Documents/Unreal Projects/ProtoMan/Content/Collections/' was aborted.
+[2017.08.02-04.34.25:895][717]LogDirectoryWatcher: A directory notification for 'C:/Users/nixin/Documents/Unreal Projects/ProtoMan/Content/Developers/nixin/Collections/' was aborted.
+[2017.08.02-04.34.25:895][717]LogDirectoryWatcher: A directory notification for 'C:/Users/nixin/Documents/Unreal Projects/ProtoMan/Saved/Collections/' was aborted.
+[2017.08.02-04.34.25:895][717]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2017.08.02-04.34.25:895][717]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2017.08.02-04.34.25:895][717]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2017.08.02-04.34.25:896][717]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2017.08.02-04.34.25:896][717]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2017.08.02-04.34.25:896][717]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2017.08.02-04.34.25:896][717]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2017.08.02-04.34.25:896][717]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2017.08.02-04.34.25:896][717]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2017.08.02-04.34.25:896][717]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2017.08.02-04.34.25:896][717]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2017.08.02-04.34.25:896][717]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2017.08.02-04.34.25:896][717]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2017.08.02-04.34.25:896][717]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2017.08.02-04.34.25:896][717]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2017.08.02-04.34.25:897][717]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2017.08.02-04.34.25:897][717]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2017.08.02-04.34.25:897][717]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2017.08.02-04.34.25:897][717]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2017.08.02-04.34.25:897][717]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2017.08.02-04.34.25:897][717]LogModuleManager: Shutting down and abandoning module Media (471)
+[2017.08.02-04.34.25:897][717]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2017.08.02-04.34.25:897][717]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2017.08.02-04.34.25:897][717]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2017.08.02-04.34.25:897][717]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2017.08.02-04.34.25:897][717]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2017.08.02-04.34.25:897][717]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2017.08.02-04.34.25:897][717]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2017.08.02-04.34.25:897][717]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2017.08.02-04.34.25:897][717]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2017.08.02-04.34.25:897][717]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2017.08.02-04.34.25:897][717]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2017.08.02-04.34.25:898][717]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2017.08.02-04.34.25:898][717]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2017.08.02-04.34.25:898][717]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2017.08.02-04.34.25:898][717]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2017.08.02-04.34.25:898][717]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2017.08.02-04.34.25:898][717]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2017.08.02-04.34.26:512][717]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2017.08.02-04.34.26:512][717]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2017.08.02-04.34.26:512][717]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2017.08.02-04.34.26:512][717]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2017.08.02-04.34.26:512][717]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2017.08.02-04.34.26:512][717]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2017.08.02-04.34.26:512][717]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2017.08.02-04.34.26:512][717]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2017.08.02-04.34.26:512][717]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2017.08.02-04.34.26:512][717]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2017.08.02-04.34.26:512][717]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2017.08.02-04.34.26:512][717]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2017.08.02-04.34.26:512][717]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2017.08.02-04.34.26:512][717]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2017.08.02-04.34.26:512][717]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2017.08.02-04.34.26:512][717]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2017.08.02-04.34.26:512][717]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2017.08.02-04.34.26:513][717]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2017.08.02-04.34.26:513][717]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2017.08.02-04.34.26:513][717]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2017.08.02-04.34.26:513][717]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2017.08.02-04.34.26:513][717]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2017.08.02-04.34.26:513][717]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2017.08.02-04.34.26:513][717]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2017.08.02-04.34.26:566][717]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2017.08.02-04.34.26:566][717]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2017.08.02-04.34.26:566][717]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2017.08.02-04.34.26:566][717]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2017.08.02-04.34.26:566][717]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2017.08.02-04.34.26:566][717]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2017.08.02-04.34.26:566][717]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2017.08.02-04.34.26:566][717]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2017.08.02-04.34.26:566][717]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2017.08.02-04.34.26:566][717]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2017.08.02-04.34.26:583][717]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2017.08.02-04.34.26:583][717]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2017.08.02-04.34.26:583][717]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2017.08.02-04.34.26:583][717]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2017.08.02-04.34.26:583][717]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2017.08.02-04.34.26:583][717]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2017.08.02-04.34.26:583][717]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2017.08.02-04.34.26:583][717]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2017.08.02-04.34.26:583][717]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2017.08.02-04.34.26:583][717]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2017.08.02-04.34.26:583][717]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2017.08.02-04.34.26:583][717]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2017.08.02-04.34.26:583][717]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2017.08.02-04.34.26:583][717]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2017.08.02-04.34.26:583][717]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2017.08.02-04.34.26:583][717]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2017.08.02-04.34.26:583][717]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2017.08.02-04.34.26:583][717]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2017.08.02-04.34.26:583][717]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2017.08.02-04.34.26:583][717]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2017.08.02-04.34.26:676][717]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2017.08.02-04.34.26:676][717]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2017.08.02-04.34.26:676][717]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2017.08.02-04.34.26:676][717]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2017.08.02-04.34.26:676][717]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2017.08.02-04.34.26:676][717]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2017.08.02-04.34.26:676][717]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2017.08.02-04.34.26:676][717]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2017.08.02-04.34.26:676][717]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2017.08.02-04.34.26:676][717]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2017.08.02-04.34.26:676][717]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2017.08.02-04.34.26:676][717]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2017.08.02-04.34.26:676][717]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2017.08.02-04.34.26:677][717]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.08.02-04.34.26:677][717]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.08.02-04.34.26:677][717]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.08.02-04.34.26:677][717]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.08.02-04.34.26:677][717]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.08.02-04.34.26:677][717]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.08.02-04.34.26:677][717]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.08.02-04.34.26:677][717]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.08.02-04.34.26:677][717]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.08.02-04.34.26:677][717]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.08.02-04.34.26:677][717]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.08.02-04.34.26:677][717]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.08.02-04.34.26:677][717]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.08.02-04.34.26:677][717]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.08.02-04.34.26:677][717]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.08.02-04.34.26:677][717]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.08.02-04.34.26:677][717]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.08.02-04.34.26:678][717]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.08.02-04.34.26:678][717]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.08.02-04.34.26:678][717]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.08.02-04.34.26:678][717]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.08.02-04.34.26:678][717]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.08.02-04.34.26:678][717]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.08.02-04.34.26:679][717]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.08.02-04.34.26:679][717]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.08.02-04.34.26:679][717]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.08.02-04.34.26:680][717]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.08.02-04.34.26:680][717]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.08.02-04.34.26:680][717]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.08.02-04.34.26:680][717]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.08.02-04.34.26:680][717]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.08.02-04.34.26:680][717]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.08.02-04.34.26:781][717]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.08.02-04.34.26:881][717]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.08.02-04.34.26:881][717]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.08.02-04.34.26:881][717]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.08.02-04.34.26:881][717]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.08.02-04.34.26:881][717]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.08.02-04.34.26:881][717]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.08.02-04.34.26:883][717]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.08.02-04.34.26:883][717]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.08.02-04.34.26:883][717]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.08.02-04.34.26:883][717]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.08.02-04.34.26:884][717]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.08.02-04.34.26:884][717]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.08.02-04.34.26:884][717]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.08.02-04.34.26:884][717]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.08.02-04.34.26:884][717]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.08.02-04.34.26:884][717]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.08.02-04.34.26:884][717]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.08.02-04.34.26:884][717]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.08.02-04.34.26:884][717]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.08.02-04.34.26:884][717]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.08.02-04.34.26:884][717]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.08.02-04.34.26:884][717]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.08.02-04.34.26:884][717]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.08.02-04.34.26:884][717]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.08.02-04.34.26:884][717]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.08.02-04.34.26:884][717]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.08.02-04.34.26:884][717]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.08.02-04.34.26:884][717]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.08.02-04.34.26:884][717]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.08.02-04.34.26:888][717]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.08.02-04.34.26:888][717]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.08.02-04.34.26:888][717]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.08.02-04.34.26:888][717]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.08.02-04.34.26:888][717]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.08.02-04.34.26:888][717]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.08.02-04.34.27:050][717]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.08.02-04.34.27:050][717]LogDirectoryWatcher: A directory notification for '../../../../../../Users/nixin/Documents/Unreal Projects/ProtoMan/Content/' was aborted.
+[2017.08.02-04.34.27:050][717]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.08.02-04.34.27:050][717]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.08.02-04.34.27:055][717]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.08.02-04.34.27:061][717]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.08.02-04.34.27:061][717]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.08.02-04.34.27:061][717]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.08.02-04.34.27:061][717]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.08.02-04.34.27:062][717]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.08.02-04.34.27:062][717]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.08.02-04.34.27:062][717]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.08.02-04.34.27:062][717]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.08.02-04.34.27:106][717]LogDerivedDataCache: Shutdown
+[2017.08.02-04.34.27:106][717]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.08.02-04.34.27:106][717]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.08.02-04.34.27:106][717]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.08.02-04.34.27:106][717]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.08.02-04.34.27:106][717]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.08.02-04.34.27:106][717]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.08.02-04.34.27:106][717]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.08.02-04.34.27:106][717]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.08.02-04.34.27:106][717]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.08.02-04.34.27:106][717]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.08.02-04.34.27:106][717]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.08.02-04.34.27:106][717]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.08.02-04.34.27:106][717]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.08.02-04.34.27:106][717]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.08.02-04.34.27:106][717]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.08.02-04.34.27:106][717]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.08.02-04.34.27:106][717]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.08.02-04.34.27:106][717]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.08.02-04.34.27:106][717]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.08.02-04.34.27:106][717]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.08.02-04.34.27:106][717]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.08.02-04.34.27:106][717]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.08.02-04.34.27:106][717]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.08.02-04.34.27:106][717]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.08.02-04.34.27:106][717]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.08.02-04.34.27:106][717]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.08.02-04.34.27:106][717]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.08.02-04.34.27:106][717]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.08.02-04.34.27:106][717]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.08.02-04.34.27:106][717]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.08.02-04.34.27:106][717]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.08.02-04.34.27:106][717]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.08.02-04.34.27:106][717]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.08.02-04.34.27:106][717]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.08.02-04.34.27:106][717]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.08.02-04.34.27:106][717]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.08.02-04.34.27:106][717]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.08.02-04.34.27:107][717]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.08.02-04.34.27:107][717]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.08.02-04.34.27:107][717]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.08.02-04.34.27:107][717]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.08.02-04.34.27:107][717]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.08.02-04.34.27:107][717]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.08.02-04.34.27:107][717]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.08.02-04.34.27:107][717]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.08.02-04.34.27:107][717]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.08.02-04.34.27:107][717]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.08.02-04.34.27:107][717]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.08.02-04.34.27:107][717]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.08.02-04.34.27:107][717]LogOnline:Display: Unloading online subsystem: NULL
+[2017.08.02-04.34.27:107][717]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.08.02-04.34.27:107][717]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.08.02-04.34.27:107][717]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.08.02-04.34.27:107][717]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5787FF3F-41A3-360A-C39E-80B39156276A%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=eb90d6754df671c3a1ba57b8f8c69a72%7C68112c2ad8fc43339402d1035c00fda8%7C8b68b959-aea7-4d15-b96e-7394709602d8&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.08.02-04.34.27:130][717]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.08.02-04.34.27:131][717]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.08.02-04.34.27:131][717]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.08.02-04.34.27:131][717]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.08.02-04.34.27:132][717]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.08.02-04.34.27:132][717]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.08.02-04.34.27:132][717]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.08.02-04.34.27:132][717]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.08.02-04.34.27:132][717]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.08.02-04.34.27:136][717]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.08.02-04.34.27:136][717]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.08.02-04.34.27:136][717]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.08.02-04.34.27:136][717]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.08.02-04.34.27:136][717]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.08.02-04.34.27:136][717]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.08.02-04.34.27:136][717]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.08.02-04.34.27:136][717]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.08.02-04.34.27:136][717]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.08.02-04.34.27:136][717]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.08.02-04.34.27:138][717]LogExit: Exiting.
+[2017.08.02-04.34.27:159][717]Log file closed, 08/01/17 21:34:27
